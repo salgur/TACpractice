@@ -1,0 +1,136 @@
+{
+  "itemId" : "_45S1oDmuEe2jAKcEIdhh5g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_YVULgNUxEeypL-I3Ty1tRA",
+    "parameterList" : [ {
+      "id" : "_YXZPJtUxEeypL-I3Ty1tRA",
+      "name" : "FromPostDate"
+    }, {
+      "id" : "_1AY6UNWpEey_e-Qionr4vg",
+      "name" : "JobErrorStep"
+    }, {
+      "id" : "_eX5fUNX9Eey_e-Qionr4vg",
+      "name" : "TargetInsert"
+    }, {
+      "id" : "_-l464NYrEeyE9_AozeJDSg",
+      "name" : "SourceCount"
+    }, {
+      "id" : "_eX5fUdX9Eey_e-Qionr4vg",
+      "name" : "TargetUpdate"
+    }, {
+      "id" : "_YXZPKtUxEeypL-I3Ty1tRA",
+      "name" : "EmailCC"
+    }, {
+      "id" : "_YXZPI9UxEeypL-I3Ty1tRA",
+      "name" : "JobEndTime"
+    }, {
+      "id" : "_YXZPIdUxEeypL-I3Ty1tRA",
+      "name" : "JobStatus"
+    }, {
+      "id" : "_YXZPJdUxEeypL-I3Ty1tRA",
+      "name" : "NumberOfDays"
+    }, {
+      "id" : "_JYQGsNYrEeyE9_AozeJDSg",
+      "name" : "TargetRejected"
+    }, {
+      "id" : "_QzBlsNWoEey_e-Qionr4vg",
+      "name" : "JobErroReason"
+    }, {
+      "id" : "_Wipa8NWoEey_e-Qionr4vg",
+      "name" : "EmailSubject"
+    }, {
+      "id" : "_eX5fUtX9Eey_e-Qionr4vg",
+      "name" : "TargetDelete"
+    }, {
+      "id" : "_YXZPItUxEeypL-I3Ty1tRA",
+      "name" : "JobStartTime"
+    }, {
+      "id" : "_YXZPJNUxEeypL-I3Ty1tRA",
+      "name" : "ToPostDate"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_tmeNQA5pEfC00cUmWyN2iQ",
+    "parameterList" : [ {
+      "id" : "_tnI7oQ5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_Password"
+    }, {
+      "id" : "_tnI7pg5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_Database"
+    }, {
+      "id" : "_tnI7ow5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_AdditionalParams"
+    }, {
+      "id" : "_tnI7pQ5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_Login"
+    }, {
+      "id" : "_tnI7pw5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_Schema"
+    }, {
+      "id" : "_tnI7pA5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_Port"
+    }, {
+      "id" : "_tnI7og5pEfC00cUmWyN2iQ",
+      "name" : "connection_NAVII_00_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KtJk4BPCEfCQcvDxz2yp9w",
+    "parameterList" : [ {
+      "id" : "_KuPxEBPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_userPassword_userId"
+    }, {
+      "id" : "_KuPKBBPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_regionID"
+    }, {
+      "id" : "_KuPxEhPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_oauthProperties_scope"
+    }, {
+      "id" : "_KuPxFxPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_role"
+    }, {
+      "id" : "_KuPKBxPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_keyAlias"
+    }, {
+      "id" : "_KuPxFhPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_db"
+    }, {
+      "id" : "_KuPKAxPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_KuPxGBPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_warehouse"
+    }, {
+      "id" : "_KuPxFBPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_userPassword_password"
+    }, {
+      "id" : "_KuPxExPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_account"
+    }, {
+      "id" : "_KuPxFRPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_loginTimeout"
+    }, {
+      "id" : "_KuPKBhPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_KuPKARPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_oauthProperties_clientId"
+    }, {
+      "id" : "_KuPxERPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_jdbcParameters"
+    }, {
+      "id" : "_KuPKBRPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_jdbcUrlSuffix"
+    }, {
+      "id" : "_KuPKAhPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_schemaName"
+    }, {
+      "id" : "_KuPxGhPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_KuPxGRPCEfCQcvDxz2yp9w",
+      "name" : "connection_Master_Tables_Snowflake_oauthProperties_clientSecret"
+    } ]
+  } ]
+}

@@ -1,0 +1,29 @@
+{
+  "itemId" : "_VNJdEDnAEe2J1PSRPeG7Fw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_ZKHL4A5rEfC00cUmWyN2iQ",
+    "parameterList" : [ {
+      "id" : "_ZKltAQ5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_Password"
+    }, {
+      "id" : "_ZKltAw5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_AdditionalParams"
+    }, {
+      "id" : "_ZKltAg5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_Server"
+    }, {
+      "id" : "_ZKltBA5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_Port"
+    }, {
+      "id" : "_ZKltBQ5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_Login"
+    }, {
+      "id" : "_ZKltBw5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_Schema"
+    }, {
+      "id" : "_ZKltBg5rEfC00cUmWyN2iQ",
+      "name" : "connection_Talend_Log_Database"
+    } ]
+  } ]
+}
