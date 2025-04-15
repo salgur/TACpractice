@@ -1,0 +1,39 @@
+package routines;
+
+import java.math.BigDecimal;
+
+
+public class LoanServ {
+	
+	public static String decimaltoString(BigDecimal bd,int length)
+	{
+		String s1,r=null;
+		try{
+		String s=bd.toPlainString();
+		s1=s.replaceAll("\\.", "");
+		r=String.format("%0"+length+"d", Long.parseLong(s1));
+		}
+		catch(ArithmeticException  | NullPointerException e)
+	       {
+	              e.printStackTrace();
+	       }
+		return r;
+	}
+	
+	public static String decimaltoString(BigDecimal bd,int length,int precision)
+	{
+	       String s1,r=null;
+	       try
+	       {
+	       String s=bd.setScale(precision).toPlainString();
+	       s1=s.replaceAll("\\.", "");
+	       r=String.format("%0"+length+"d", Long.parseLong(s1));
+	       }
+	       catch(ArithmeticException  | NullPointerException e)
+	       {
+	              e.printStackTrace();
+	       }
+	       return r;
+	}
+
+}

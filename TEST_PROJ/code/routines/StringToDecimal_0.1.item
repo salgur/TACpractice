@@ -1,0 +1,152 @@
+package routines;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
+//import org.apache.commons.lang.StringUtils;
+
+
+/*
+* user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+* it must be before the "{talendTypes}" key.
+* 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+* long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+* Short
+* 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+* 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+* 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+* Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+* added. you can have many parameters for the Function.
+* 
+ * 5. {example} gives a example for the Function. it is optional.
+*/
+public class StringToDecimal {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static String addDecimalPlace(String inputString, int decimalPlaces) throws Exception {
+              BigDecimal bd = new BigDecimal(inputString);
+              String amountVal="";
+              int amountValLength=0;
+              bd = bd.movePointLeft(decimalPlaces);
+              //amountVal=String.format("%,.2f", Double.parseDouble(bd.toString()));
+              amountVal=String.format("%,.2f", bd); // 09-SEP-2021 : Vaibhav : Removed unnecessary type-casting from BigDecimal to Double.
+              amountValLength=amountVal.split("\\.")[0].replace(",", "").length();
+              
+              for(int i=10-amountValLength;i>0;i--)
+              {
+                     amountVal="*"+amountVal;
+              }
+              return amountVal;
+       }
+    
+    public static String addDecimalPlaceOnly(String inputString, int decimalPlaces) throws Exception {
+              BigDecimal bd = new BigDecimal(inputString);
+              
+              bd = bd.movePointLeft(decimalPlaces);
+              //bd.stripTrailingZeros().toPlainString();
+              
+              return bd.toString();
+       }
+    
+    public static String addDecPlaceWithThsndSeperator(String inputString, int decimalPlaces) throws Exception {
+              //System.out.println(inputString + "Input string ");
+       BigDecimal bd = new BigDecimal(inputString);
+              bd = bd.movePointLeft(decimalPlaces);
+              
+              //return String.format("%,.2f", Double.parseDouble(bd.toString()));
+              return String.format("%,.2f", bd); // 09-SEP-2021 : Vaibhav : Removed unnecessary type-casting from BigDecimal to Double. 
+       }
+    
+    public static String addThsndSeperatorOnly(String inputString) throws Exception {
+        //System.out.println(inputString + "Input string ");
+ 
+ DecimalFormat f = new DecimalFormat("###,##0.00");
+ BigDecimal d = new BigDecimal(inputString);
+    	//BigDecimal bd = new BigDecimal(inputString);
+        //bd = bd;
+        //1180.16
+
+    	//return String.format("%,d", Double.parseDouble(bd.toString()));
+        return f.format(d);
+ }
+    
+    public static String addDecimalPlaceOnlyCustom(String inputString, int decimalPlaces) throws Exception {
+             BigDecimal bd = new BigDecimal(inputString);
+             
+              bd = bd.movePointLeft(decimalPlaces);
+             //bd.stripTrailingZeros().toPlainString();
+             
+              return bd.stripTrailingZeros().toPlainString();
+              
+      }
+    
+    public static Integer ParseToInt(String inputString)throws Exception {
+        	
+    	return Integer.parseInt(inputString);
+    }
+    
+    public static String addDecimalPlacesOnlyWithPrecision(String inputString, int decimalPlaces) throws Exception {
+    
+    	   	
+    	BigDecimal bd = new BigDecimal(inputString);
+        
+        bd = bd.movePointLeft(decimalPlaces);
+        
+        if(bd.stripTrailingZeros().precision()-1 <4)
+        {
+        	return bd.setScale(4).toPlainString();
+        }
+        else
+        {
+        	return bd.toPlainString();
+        }
+
+    }
+    
+    public static String addDecPlaceWithThsndSeprtrAndNegtvSign(String inputString, int decimalPlaces) throws Exception {
+       //System.out.println(inputString + "Input string ");
+    	String stringFormat="%,."+decimalPlaces+"f";
+    	if(inputString.contains("-"))
+    	{
+    		if(inputString.substring(0, 1).equals("-"))
+    		{
+    			inputString=inputString.substring(1);
+    			BigDecimal bd = new BigDecimal(inputString);
+    	        bd = bd.movePointLeft(decimalPlaces);
+    	        //return "-"+String.format(stringFormat, Double.parseDouble(bd.toString()));
+    	        return "-"+String.format(stringFormat, bd); // 09-SEP-2021 : Vaibhav : Removed unnecessary type-casting from BigDecimal to Double.
+    		}
+    		else
+    		{
+    			inputString=inputString.substring(0,inputString.length()-1);
+    			BigDecimal bd = new BigDecimal(inputString);
+    	        bd = bd.movePointLeft(decimalPlaces);
+    	        //return String.format(stringFormat, Double.parseDouble(bd.toString()))+"-";
+    	        return String.format(stringFormat, bd)+"-"; // 09-SEP-2021 : Vaibhav : Removed unnecessary type-casting from BigDecimal to Double.
+    			
+    		}
+    	}
+    	else
+    	{
+    		BigDecimal bd = new BigDecimal(inputString);
+        
+        bd = bd.movePointLeft(decimalPlaces);
+        
+        return String.format(stringFormat, bd); // 09-SEP-2021 : Vaibhav : Removed unnecessary type-casting from BigDecimal to Double.
+    	}
+ }
+}
+

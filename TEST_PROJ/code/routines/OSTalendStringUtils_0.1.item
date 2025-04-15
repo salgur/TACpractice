@@ -1,0 +1,17 @@
+package routines;
+
+
+
+
+public class OSTalendStringUtils {
+    public static String LeftPadString(String inputData,int stringLength,String padChar) {
+        String diffString="";
+    	int lenDiff=stringLength-inputData.length();
+    	for(int i=0;i<lenDiff;i++)
+    	{
+    		diffString=diffString+padChar;
+    	}
+    	
+    	return diffString+inputData;
+    }
+}

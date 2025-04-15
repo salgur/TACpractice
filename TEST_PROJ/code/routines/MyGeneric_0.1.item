@@ -1,0 +1,54 @@
+//template routine Java
+/* 
+ * Author 		:- Swapnil 
+ * Date 		:- 10/19/2016 
+ * Version		:- First
+ * Change log	:- Base version
+ * This generic routine generate standard Time stamp and append timestamp with supplied message
+ *   
+ */
+/* 
+ * Author 		:- Swapnil 
+ * Date 		:- 10/19/2016 
+ * Version		:- First
+ * Change log	:- Base version
+ * This generic routine generate standard Time stamp and append timestamp with supplied message
+ *   
+ */
+
+package routines;
+
+public class MyGeneric {
+
+  /***** 
+     * helloExemple: Print the hello message on the console
+     * {Category} DemoRoutine
+     * {talendTypes} String
+	 *
+     * */	    	
+
+	public static String getCurrentTimeStamp() {
+		
+		String MyTimeStamp = TalendDate.formatDate("yyyy-MM-dd HH:mm:ss:SSSSSSS",TalendDate.getCurrentDate());
+		
+		return  MyTimeStamp;
+	}
+
+	public static String MyPrint(String message) {
+	String msg = getCurrentTimeStamp() + "  "+ message ;
+    System.out.println(msg);
+	return msg ;
+	}
+	
+	public static String replaceLast(String string, String substring, String replacement)
+    {
+      int index = string.lastIndexOf(substring);
+      if (index == -1)
+        return string;
+      return string.substring(0, index) + replacement
+              + string.substring(index+substring.length());
+    }
+
+    
+    
+}

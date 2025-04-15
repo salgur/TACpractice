@@ -1,0 +1,124 @@
+package routines;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class BankSolutions {
+
+   public static String DateConversion (String Value, String FieldName, String AccountNumber)
+   
+   {
+	  
+	   if (TalendDate.isDate(Value,"MMddyyyy"))
+	   {
+		   return TalendDate.formatDate("MM/dd/yyyy",TalendDate.parseDate("MMddyyyy",Value));
+	   }
+	   else if (Relational.ISNULL(Value) || Value.equals("") || Value.equals("00000000") || Value.equals("        "))
+	   {
+		   return "";
+	   }
+	  else
+	   {
+		 System.out.println("***********************************************************************************************************");
+		 System.out.println("Invalid Date encountered value \""+Value+"\" at "+FieldName+" for Account number : "+AccountNumber);
+		 System.out.println("***********************************************************************************************************");
+		 return "";
+	   }
+   }
+  
+   public static String AmountConversion (String Value, String FieldName, String AccountNumber)
+   {
+	   
+	   if (Relational.ISNULL(Value))
+	   {
+		     //System.out.println("***********************************************************************************************************");
+			 //System.out.println("Invalid Amount encountered value "+Value+" at "+FieldName+" for Account number : "+AccountNumber);
+			 //System.out.println("***********************************************************************************************************");
+			 return "000000000000";
+	   }
+	   
+	   String Amount = Value.replace("+ ","+").replace("- ", "-").trim();
+	   
+	   if (Amount.matches("-?\\+?\\d+(\\d+)?"))
+	   {
+		   return Amount;
+	   }
+	   else if (Amount.equals(""))
+	   {
+		   return "000000000000";
+	   }
+	   else
+	   {
+			 System.out.println("***********************************************************************************************************");
+			 System.out.println("Invalid Amount encountered value \""+Value+"\" at "+FieldName+" for Account number : "+AccountNumber);
+			 System.out.println("***********************************************************************************************************");
+			 return "000000000000";
+	   }
+   }
+   /*//TARUN. 10/08/2019
+   public static String DynamicPaymentHistory (String Label1, String Date1, String Label2, String Amount)
+   
+   {
+	  
+	   if (Label1.trim().equals("") && Date1.trim().equals("") && Label2.trim().equals("") && Amount.equals("0000000000000"))
+	   {
+		   return "";
+	   }
+	   else
+	   {
+		   if (Amount.trim().equals(""))
+			   Amount="0000000000000";
+		   String PaymentHistory;
+		   PaymentHistory="<DynamicPaymentHistory><PaymentHistoryLine>"+Label1 +" "+Date1+" "+Label2 +" $"+(new java.text.DecimalFormat("###0.00##").format(Double.parseDouble(Amount)/100))+"</PaymentHistoryLine><FormatInd></FormatInd></DynamicPaymentHistory>";
+		   return PaymentHistory;
+	   }
+   }*/
+   
+   //SANKET. 05/11/2020
+   public static String DynamicPaymentHistory (String Label1, String Date1, String Label2, String BalanceStatusValue)
+   
+   {
+	   String BalanceVar ="";
+	   //if ((Label1.trim().equals("") && Date1.trim().equals("00000000") && Label2.trim().equals("") && BalanceStatusValue.equals("0000000000000")))
+	   if ((Label1.trim().equals("") && (Date1.trim().equals("00000000") || Date1.trim().equals("")) && Label2.trim().equals("") && (BalanceStatusValue.equals("0000000000000")||BalanceStatusValue.equals(" 000000000000"))))
+	   {
+		   //System.out.println("####### Inside if routine when blank or 0");
+		   return "";
+	   }
+	   else
+	   {
+		   //System.out.println("######## Inside else");
+		   if (BalanceStatusValue.trim().equals(""))
+			   BalanceStatusValue.equals(" 000000000000");
+		   //System.out.println("######## Inside 2nd if - "+Label1 +" - "+Date1+" - "+Label2+" - "+BalanceStatusValue);
+		   //System.out.println("BalanceStatusValue : "+BalanceStatusValue);
+		   String PaymentHistory;
+		   
+		   if (BalanceStatusValue.substring(0,1).equals("D"))
+		   {
+		    BalanceVar = StringHandling.RIGHT(BalanceStatusValue.trim(), 8);
+		   }
+		   //System.out.println("BalanceVar : "+BalanceVar);
+
+		   PaymentHistory="<DynamicPaymentHistory><PaymentHistoryLine>"+Label1.trim() +" "+(Date1.equals("")?"":TalendDate.formatDate("MM/dd/yyyy", TalendDate.parseDate("MMddyyyy", Date1)))+" "+Label2.trim()+" "+(BalanceStatusValue.substring(0,1).equals("D")?(TalendDate.formatDate("MM/dd/yyyy", TalendDate.parseDate("MMddyyyy", BalanceVar))):("$"+(new java.text.DecimalFormat("###0.00##").format(Double.parseDouble(BalanceStatusValue.substring(2, 13))/100))))+"</PaymentHistoryLine><FormatInd></FormatInd></DynamicPaymentHistory>";
+		   
+		   return PaymentHistory;
+	   }
+   }
+   
+}

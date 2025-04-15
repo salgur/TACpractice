@@ -48,4 +48,71 @@
     "version" : "Latest",
     "type" : "context"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_hSBLcEEuEeyAXps1Mb_jTA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "BankSolutions",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetCityStateZip",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "LoanServ",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "LoanservFormat",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Loanserv_AccountMask",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MyGeneric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "OSTalendStringUtils",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringToDecimal",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "a",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
 } ]
