@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='220' id='1' V220='3' V1='4' name='BLACK_NIGHT_ARM_LoanServ_BankSolutions_ESCR_ARM_DLRS' incarnation='7'>
+  <namespaceRoot t='221' id='2' V222='3' V1='4'>
+    <namespaceContainer t='220' idref='1'/>
+    <child t='222' id='3' V222='3' namespaceUri='http://www.w3.org/2001/XMLSchema' V1='4' name='xs'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+    <child t='222' id='4' V222='3' namespaceUri='http://www.w3.org/2001/XMLSchema-instance' V1='4' name='xsi'>
+      <namespaceContainer t='220' idref='1'/>
+    </child>
+  </namespaceRoot>
+</root>
