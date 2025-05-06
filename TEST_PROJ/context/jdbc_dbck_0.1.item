@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_L94zFRCYEfCATLsZH3bxjg">
+    <contextParameter comment="" name="jdbc_dbck_password" prompt="jdbc_dbck_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_L94zFhCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_userId" prompt="jdbc_dbck_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_L94zFxCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_jdbcUrl" prompt="jdbc_dbck_jdbcUrl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_L94zGBCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_jdbcClass" prompt="jdbc_dbck_jdbcClass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="com.databricks.client.jdbc.Driver" xmi:id="_L94zGRCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_host" prompt="jdbc_dbck_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="adb-2839205790470433.13.azuredatabricks.net" xmi:id="_COKCUBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_port" prompt="jdbc_dbck_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="443" xmi:id="_COKCUREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_service_principal" prompt="jdbc_dbck_service_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sp-enelx-etl-dev" xmi:id="_COKCUhEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_client_id" prompt="jdbc_dbck_client_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="0a8e9391-32d7-4ef1-9846-d5d65a86da77" xmi:id="_COKCUxEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_client_secret" prompt="jdbc_dbck_client_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dose45b85b8298af5ee8c157570005637ea4" xmi:id="_COKCVBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_access_token" prompt="jdbc_dbck_access_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCVREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_catalog" prompt="jdbc_dbck_catalog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dpml-enelx-dev" xmi:id="_vZIAkBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_database" prompt="jdbc_dbck_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="test" xmi:id="_vZIAkREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_access_token_timestamp" prompt="jdbc_dbck_access_token_timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_7dJJ0BbHEfCsosbRjc761w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_L94zGhCYEfCATLsZH3bxjg">
+    <contextParameter comment="" name="jdbc_dbck_password" prompt="jdbc_dbck_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_L94zGxCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_userId" prompt="jdbc_dbck_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_L94zHBCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_jdbcUrl" prompt="jdbc_dbck_jdbcUrl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_L94zHRCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_jdbcClass" prompt="jdbc_dbck_jdbcClass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="com.databricks.client.jdbc.Driver" xmi:id="_L94zHhCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_host" prompt="jdbc_dbck_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="adb-2839205790470433.13.azuredatabricks.net" xmi:id="_COKCVhEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_port" prompt="jdbc_dbck_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="443" xmi:id="_COKCVxEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_service_principal" prompt="jdbc_dbck_service_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCWBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_client_id" prompt="jdbc_dbck_client_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCWREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_client_secret" prompt="jdbc_dbck_client_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCWhEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_access_token" prompt="jdbc_dbck_access_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCWxEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_catalog" prompt="jdbc_dbck_catalog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_vZIAkhEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_database" prompt="jdbc_dbck_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="test" xmi:id="_vZIAkxEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_access_token_timestamp" prompt="jdbc_dbck_access_token_timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_7dJw4BbHEfCsosbRjc761w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_L94zHxCYEfCATLsZH3bxjg">
+    <contextParameter comment="" name="jdbc_dbck_password" prompt="jdbc_dbck_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_L94zIBCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_userId" prompt="jdbc_dbck_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_L94zIRCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_jdbcUrl" prompt="jdbc_dbck_jdbcUrl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_L94zIhCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_jdbcClass" prompt="jdbc_dbck_jdbcClass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="com.databricks.client.jdbc.Driver" xmi:id="_L94zIxCYEfCATLsZH3bxjg"/>
+    <contextParameter comment="" name="jdbc_dbck_host" prompt="jdbc_dbck_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="adb-2839205790470433.13.azuredatabricks.net" xmi:id="_COKCXBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_port" prompt="jdbc_dbck_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="443" xmi:id="_COKCXREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_service_principal" prompt="jdbc_dbck_service_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCXhEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_client_id" prompt="jdbc_dbck_client_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCXxEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_client_secret" prompt="jdbc_dbck_client_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCYBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_access_token" prompt="jdbc_dbck_access_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COKCYREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_catalog" prompt="jdbc_dbck_catalog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_vZIAlBEwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_database" prompt="jdbc_dbck_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="test" xmi:id="_vZIAlREwEfC-L4fG6vF1RA"/>
+    <contextParameter comment="" name="jdbc_dbck_access_token_timestamp" prompt="jdbc_dbck_access_token_timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_7dJw4RbHEfCsosbRjc761w"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ac2f636c-143b-405d-b643-5b6f1ad8642e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tsZ5EBxOX/4PZoxf5d5kbFCpVoW/p+5t6aDYQwRzn6Z9MBkY/TGVJnjug3lM1z71IQSYzrPTNZO1&#13;
+JY9tdU3iIA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_15448289-fd2a-417c-86b3-861cd8694b77"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lhcDWEwKsGMMYB7rk+pKtux58tWMeRedYJG0Kd2qODEyz7gC18BVk2UrH0xnfGcaqezg8Gi2c9uv&#13;
+kvVH+AONeQ==</DigestValue></Reference></SignedInfo><SignatureValue>IuB/V9347FH2+fF+f9EsPByVPKsh35TvAEelBYekNjNE8N0c0ICJhkehtx1egeE4tGOFjlyYPyJy&#13;
+NljTH03sGqNnwizIr5pAHw4UQaFnTu6phwhrDjnqHunjsj/CfS99DzEYciAhyMPJ/A1dbBaAi6Nr&#13;
+Q1vLDf35tCWkvIX62bCwVrhcRKoKyMTBn/TEsQBZ6h8vmEeGb6OGpfnBgNDO7j8nsjuSdPGIM6Am&#13;
+YhlFfaczCmZVT7DOYtzNDzEUddxWz6qWWV/9Ae3DNxaA7zxQTwkdjlcVHvsfglJ+eh+HDkujPnq8&#13;
+ggKHHwB6AK41b/E+uSJ6pmUSRwqPmjn0QErd5w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_15448289-fd2a-417c-86b3-861cd8694b77" Target="#_ac2f636c-143b-405d-b643-5b6f1ad8642e"><Timestamp>2025-05-06 09:51:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

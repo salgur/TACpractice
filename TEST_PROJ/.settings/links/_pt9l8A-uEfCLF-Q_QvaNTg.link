@@ -1,0 +1,124 @@
+{
+  "itemId" : "_pt9l8A-uEfCLF-Q_QvaNTg",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_L9jb4BCYEfCATLsZH3bxjg",
+    "parameterList" : [ {
+      "id" : "_COKCVREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_access_token"
+    }, {
+      "id" : "_vZIAkBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_catalog"
+    }, {
+      "id" : "_COKCUxEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_client_id"
+    }, {
+      "id" : "_COKCVBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_client_secret"
+    }, {
+      "id" : "_vZIAkREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_database"
+    }, {
+      "id" : "_COKCUBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_host"
+    }, {
+      "id" : "_L94zGRCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_jdbcClass"
+    }, {
+      "id" : "_L94zGBCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_jdbcUrl"
+    }, {
+      "id" : "_L94zFhCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_password"
+    }, {
+      "id" : "_COKCUREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_port"
+    }, {
+      "id" : "_COKCUhEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_service_principal"
+    }, {
+      "id" : "_L94zFxCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_userId"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_L9jb4BCYEfCATLsZH3bxjg",
+    "parameterList" : [ {
+      "id" : "_COKCWxEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_access_token"
+    }, {
+      "id" : "_vZIAkhEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_catalog"
+    }, {
+      "id" : "_COKCWREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_client_id"
+    }, {
+      "id" : "_COKCWhEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_client_secret"
+    }, {
+      "id" : "_vZIAkxEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_database"
+    }, {
+      "id" : "_COKCVhEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_host"
+    }, {
+      "id" : "_L94zHhCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_jdbcClass"
+    }, {
+      "id" : "_L94zHRCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_jdbcUrl"
+    }, {
+      "id" : "_L94zGxCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_password"
+    }, {
+      "id" : "_COKCVxEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_port"
+    }, {
+      "id" : "_COKCWBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_service_principal"
+    }, {
+      "id" : "_L94zHBCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_userId"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_L9jb4BCYEfCATLsZH3bxjg",
+    "parameterList" : [ {
+      "id" : "_COKCYREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_access_token"
+    }, {
+      "id" : "_vZIAlBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_catalog"
+    }, {
+      "id" : "_COKCXxEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_client_id"
+    }, {
+      "id" : "_COKCYBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_client_secret"
+    }, {
+      "id" : "_vZIAlREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_database"
+    }, {
+      "id" : "_COKCXBEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_host"
+    }, {
+      "id" : "_L94zIxCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_jdbcClass"
+    }, {
+      "id" : "_L94zIhCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_jdbcUrl"
+    }, {
+      "id" : "_L94zIBCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_password"
+    }, {
+      "id" : "_COKCXREwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_port"
+    }, {
+      "id" : "_COKCXhEwEfC-L4fG6vF1RA",
+      "name" : "jdbc_dbck_service_principal"
+    }, {
+      "id" : "_L94zIRCYEfCATLsZH3bxjg",
+      "name" : "jdbc_dbck_userId"
+    } ]
+  } ]
+}

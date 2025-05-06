@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmi:version="2.0">
+  <model:JobletProcess defaultContext="dev" framework="" jobType="Standard">
+    <context confirmationNeeded="false" hide="false" name="dev">
+      <contextParameter comment="" internalId="_y0rsABExEfC-L4fG6vF1RA" name="jdbc_dbck_access_token" prompt="jdbc_dbck_access_token?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsARExEfC-L4fG6vF1RA" name="jdbc_dbck_catalog" prompt="jdbc_dbck_catalog?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="dpml-enelx-dev"/>
+      <contextParameter comment="" internalId="_y0rsAhExEfC-L4fG6vF1RA" name="jdbc_dbck_client_id" prompt="jdbc_dbck_client_id?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="0a8e9391-32d7-4ef1-9846-d5d65a86da77"/>
+      <contextParameter comment="" internalId="_y0rsAxExEfC-L4fG6vF1RA" name="jdbc_dbck_client_secret" prompt="jdbc_dbck_client_secret?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="dose45b85b8298af5ee8c157570005637ea4"/>
+      <contextParameter comment="" internalId="_y0rsBBExEfC-L4fG6vF1RA" name="jdbc_dbck_database" prompt="jdbc_dbck_database?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="test"/>
+      <contextParameter comment="" internalId="_y0rsBRExEfC-L4fG6vF1RA" name="jdbc_dbck_host" prompt="jdbc_dbck_host?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="adb-2839205790470433.13.azuredatabricks.net"/>
+      <contextParameter comment="" internalId="_y0rsBhExEfC-L4fG6vF1RA" name="jdbc_dbck_jdbcClass" prompt="jdbc_dbck_jdbcClass?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="com.databricks.client.jdbc.Driver"/>
+      <contextParameter comment="" internalId="_y0rsBxExEfC-L4fG6vF1RA" name="jdbc_dbck_jdbcUrl" prompt="jdbc_dbck_jdbcUrl?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsCBExEfC-L4fG6vF1RA" name="jdbc_dbck_password" prompt="jdbc_dbck_password?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_Password" value=""/>
+      <contextParameter comment="" internalId="_y0rsCRExEfC-L4fG6vF1RA" name="jdbc_dbck_port" prompt="jdbc_dbck_port?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="443"/>
+      <contextParameter comment="" internalId="_y0rsChExEfC-L4fG6vF1RA" name="jdbc_dbck_service_principal" prompt="jdbc_dbck_service_principal?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="sp-enelx-etl-dev"/>
+      <contextParameter comment="" internalId="_y0rsCxExEfC-L4fG6vF1RA" name="jdbc_dbck_userId" prompt="jdbc_dbck_userId?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="test">
+      <contextParameter comment="" internalId="_y0rsDBExEfC-L4fG6vF1RA" name="jdbc_dbck_access_token" prompt="jdbc_dbck_access_token?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsDRExEfC-L4fG6vF1RA" name="jdbc_dbck_catalog" prompt="jdbc_dbck_catalog?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsDhExEfC-L4fG6vF1RA" name="jdbc_dbck_client_id" prompt="jdbc_dbck_client_id?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsDxExEfC-L4fG6vF1RA" name="jdbc_dbck_client_secret" prompt="jdbc_dbck_client_secret?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsEBExEfC-L4fG6vF1RA" name="jdbc_dbck_database" prompt="jdbc_dbck_database?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="test"/>
+      <contextParameter comment="" internalId="_y0rsERExEfC-L4fG6vF1RA" name="jdbc_dbck_host" prompt="jdbc_dbck_host?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="adb-2839205790470433.13.azuredatabricks.net"/>
+      <contextParameter comment="" internalId="_y0rsEhExEfC-L4fG6vF1RA" name="jdbc_dbck_jdbcClass" prompt="jdbc_dbck_jdbcClass?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="com.databricks.client.jdbc.Driver"/>
+      <contextParameter comment="" internalId="_y0rsExExEfC-L4fG6vF1RA" name="jdbc_dbck_jdbcUrl" prompt="jdbc_dbck_jdbcUrl?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsFBExEfC-L4fG6vF1RA" name="jdbc_dbck_password" prompt="jdbc_dbck_password?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_Password" value=""/>
+      <contextParameter comment="" internalId="_y0rsFRExEfC-L4fG6vF1RA" name="jdbc_dbck_port" prompt="jdbc_dbck_port?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="443"/>
+      <contextParameter comment="" internalId="_y0rsFhExEfC-L4fG6vF1RA" name="jdbc_dbck_service_principal" prompt="jdbc_dbck_service_principal?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsFxExEfC-L4fG6vF1RA" name="jdbc_dbck_userId" prompt="jdbc_dbck_userId?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="prod">
+      <contextParameter comment="" internalId="_y0rsGBExEfC-L4fG6vF1RA" name="jdbc_dbck_access_token" prompt="jdbc_dbck_access_token?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsGRExEfC-L4fG6vF1RA" name="jdbc_dbck_catalog" prompt="jdbc_dbck_catalog?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsGhExEfC-L4fG6vF1RA" name="jdbc_dbck_client_id" prompt="jdbc_dbck_client_id?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsGxExEfC-L4fG6vF1RA" name="jdbc_dbck_client_secret" prompt="jdbc_dbck_client_secret?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsHBExEfC-L4fG6vF1RA" name="jdbc_dbck_database" prompt="jdbc_dbck_database?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="test"/>
+      <contextParameter comment="" internalId="_y0rsHRExEfC-L4fG6vF1RA" name="jdbc_dbck_host" prompt="jdbc_dbck_host?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="adb-2839205790470433.13.azuredatabricks.net"/>
+      <contextParameter comment="" internalId="_y0rsHhExEfC-L4fG6vF1RA" name="jdbc_dbck_jdbcClass" prompt="jdbc_dbck_jdbcClass?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="com.databricks.client.jdbc.Driver"/>
+      <contextParameter comment="" internalId="_y0rsHxExEfC-L4fG6vF1RA" name="jdbc_dbck_jdbcUrl" prompt="jdbc_dbck_jdbcUrl?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsIBExEfC-L4fG6vF1RA" name="jdbc_dbck_password" prompt="jdbc_dbck_password?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_Password" value=""/>
+      <contextParameter comment="" internalId="_y0rsIRExEfC-L4fG6vF1RA" name="jdbc_dbck_port" prompt="jdbc_dbck_port?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value="443"/>
+      <contextParameter comment="" internalId="_y0rsIhExEfC-L4fG6vF1RA" name="jdbc_dbck_service_principal" prompt="jdbc_dbck_service_principal?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_y0rsIxExEfC-L4fG6vF1RA" name="jdbc_dbck_userId" prompt="jdbc_dbck_userId?" promptNeeded="false" repositoryContextId="_L9jb4BCYEfCATLsZH3bxjg" type="id_String" value=""/>
+    </context>
+    <parameters>
+      <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/talend/Client_801/ENELX_Workspace_remote/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_18"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:CCwzBKUCaaFnstpDRe7ntl9xemglyjpFTqAKgTv4"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    </parameters>
+    <node componentName="tREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="240">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tREST_1"/>
+      <elementParameter field="TEXT" name="URL" value="&quot;https://&quot; + context.jdbc_dbck_host + &quot;/oidc/v1/token&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
+      <elementParameter field="TABLE" name="HEADERS">
+        <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+        <elementValue elementRef="VALUE" value="&quot;application/x-www-form-urlencoded&quot;"/>
+      </elementParameter>
+      <elementParameter field="MEMO" name="BODY" value="&quot;client_id=&quot; + context.jdbc_dbck_client_id + &quot;&amp;grant_type=client_credentials&amp;client_secret=&quot; + context.jdbc_dbck_client_secret + &quot;&amp;scope=2ff814a6-3304-4ab8-85cb-cd0e6f879c1d/.default&quot;"/>
+      <elementParameter field="TEXT" name="LABEL" value="get_token"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tREST_1">
+        <column defaultValue="" key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="240">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractJSONFields_1"/>
+      <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH"/>
+      <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" value="2_1_0"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value="Body"/>
+      <elementParameter field="TEXT" name="LOOP_QUERY" show="false" value="&quot;/bills/bill/line&quot;"/>
+      <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$&quot;"/>
+      <elementParameter field="TABLE" name="MAPPING" show="false">
+        <elementValue elementRef="SCHEMA_COLUMN" value="scope"/>
+        <elementValue elementRef="QUERY" value=""/>
+        <elementValue elementRef="NODECHECK" value="false"/>
+        <elementValue elementRef="ISARRAY" value="false"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="token_type"/>
+        <elementValue elementRef="QUERY" value=""/>
+        <elementValue elementRef="NODECHECK" value="false"/>
+        <elementValue elementRef="ISARRAY" value="false"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="expires_in"/>
+        <elementValue elementRef="QUERY" value=""/>
+        <elementValue elementRef="NODECHECK" value="false"/>
+        <elementValue elementRef="ISARRAY" value="false"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="access_token"/>
+        <elementValue elementRef="QUERY" value=""/>
+        <elementValue elementRef="NODECHECK" value="false"/>
+        <elementValue elementRef="ISARRAY" value="false"/>
+      </elementParameter>
+      <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
+        <elementValue elementRef="SCHEMA_COLUMN" value="scope"/>
+        <elementValue elementRef="QUERY" value="&quot;scope&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="token_type"/>
+        <elementValue elementRef="QUERY" value="&quot;token_type&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="expires_in"/>
+        <elementValue elementRef="QUERY" value="&quot;expires_in&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="access_token"/>
+        <elementValue elementRef="QUERY" value="&quot;access_token&quot;"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;UTF-8&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="UTF-8"/>
+      <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
+      <elementParameter field="CHECK" name="SPLIT_LIST" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="extract_token"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tExtractJSONFields_1">
+        <column comment="" key="false" length="-1" name="scope" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="token_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="expires_in" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="access_token" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" label="invoice_payment" name="REJECT">
+        <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="520" posY="240">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="context.jdbc_dbck_access_token=input_row.access_token;&#10;System.out.println(&quot;Token &quot; + context.jdbc_dbck_access_token);&#10;&#10;// Setting jdbc url for connection to databricks&#10;context.jdbc_dbck_jdbcUrl = &quot;jdbc:databricks://&quot; + context.jdbc_dbck_host + &quot;:&quot; + context.jdbc_dbck_port + &quot;/&quot; + context.jdbc_dbck_database + &quot;;transportMode=http;ssl=1;AuthMech=11;httpPath=/sql/1.0/warehouses/15fc3efd3ef482e0;Auth_Flow=0;Auth_AccessToken=&quot; + context.jdbc_dbck_access_token;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="set_token"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="invoice_payment" name="tJavaRow_1"/>
+    </node>
+    <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tREST_1" offsetLabelX="0" offsetLabelY="0" source="tREST_1" target="tExtractJSONFields_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tREST_1" offsetLabelX="0" offsetLabelY="0" source="tREST_1" target="TRIGGER_OUTPUT_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+    </connection>
+    <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tJavaRow_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="TRIGGER_INPUT_1" offsetLabelX="0" offsetLabelY="0" source="TRIGGER_INPUT_1" target="tREST_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tREST_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    </subjob>
+    <jobletNodes componentName="TRIGGER_INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="120" posY="80" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+    <jobletNodes componentName="TRIGGER_OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="120" posY="400" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f8e0f463-11be-42ca-9315-484f475ad056"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>scxJPvD22awncMK0HRqAauo7HpJURU8vy6sXU6hWBfl1I3GhFgPYI8JTRGOOWgRdSUMnw3nb0LPK&#13;
+w3En+gIbzA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_05bbd4d8-bc18-49da-8e85-3e44547212b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c4QDUKc2ynYSAReeSAuNbgUSc6tsqXCTkSf2ONuvvsfUq8feU5eU4OOx4V1ieXSt0wH9L6zaB165&#13;
+0Hl85nb9AA==</DigestValue></Reference></SignedInfo><SignatureValue>djo1iWjCrk5ux2BrZa63BsUOvnbEFBZqAj9tNCHmyLLsBkG3shnFwlpAXHSv6Bhv+R4gL88IjbMx&#13;
+HVPJRBpWW0RQ7L6WIt55cZF1nMrlqE4dkb+Ms6q8DlBmkJNhOpJE0hpCVlNLwbGEKH5H4uUEVeLi&#13;
+Tl6GtsWtDbIgpHT7p+tkXcCIplgK3HDCLUCDY583eoZBAKpzV/5JLtHIrhdfm2Y7tasnus1kMK8k&#13;
+rj7hEu2zJDBMP0MqgrRdarAbSWKjrTg+Ha38Y4070GcixBaW6GEk3rqbuB2KKWMN7hR6NBdYM2d2&#13;
+MsiearifogwRjdnG8nR0Y03QLiIx6cM4OuKsbw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_05bbd4d8-bc18-49da-8e85-3e44547212b6" Target="#_f8e0f463-11be-42ca-9315-484f475ad056"><Timestamp>2025-05-06 09:51:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
